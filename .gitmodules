@@ -157,3 +157,6 @@
 [submodule "plugins/vim-colorschemes"]
 	path = plugins/vim-colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
+[submodule "plugins/html5.vim"]
+	path = plugins/html5.vim
+	url = git@github.com:othree/html5.vim.git
