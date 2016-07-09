@@ -1,0 +1,156 @@
+[submodule "plugins/vim-pathogen"]
+	path = plugins/vim-pathogen
+	url = git@github.com:tpope/vim-pathogen.git
+[submodule "plugins/vim-sensible"]
+	path = plugins/vim-sensible
+	url = git@github.com:tpope/vim-sensible.git
+[submodule "plugins/vim-fugitive"]
+	path = plugins/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "plugins/vim-endwise"]
+	path = plugins/vim-endwise
+	url = git@github.com:tpope/vim-endwise.git
+[submodule "plugins/vim-surround"]
+	path = plugins/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "plugins/vim-unimpaired"]
+	path = plugins/vim-unimpaired
+	url = git@github.com:tpope/vim-unimpaired.git
+[submodule "plugins/vim-eunuch"]
+	path = plugins/vim-eunuch
+	url = git@github.com:tpope/vim-eunuch.git
+[submodule "plugins/ctrlp.vim"]
+	path = plugins/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "plugins/vim-easymotion"]
+	path = plugins/vim-easymotion
+	url = git@github.com:easymotion/vim-easymotion.git
+[submodule "plugins/nerdtree"]
+	path = plugins/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "plugins/nerdcommenter"]
+	path = plugins/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "plugins/vim-gitgutter"]
+	path = plugins/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "plugins/vim-buffergator"]
+	path = plugins/vim-buffergator
+	url = git@github.com:jeetsukumaran/vim-buffergator.git
+[submodule "plugins/ack.vim"]
+	path = plugins/ack.vim
+	url = git@github.com:mileszs/ack.vim.git
+[submodule "plugins/vim-airline"]
+	path = plugins/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "plugins/vim-airline-themes"]
+	path = plugins/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "plugins/vim-trailing-whitespace"]
+	path = plugins/vim-trailing-whitespace
+	url = git@github.com:bronson/vim-trailing-whitespace.git
+[submodule "plugins/vim-multiple-cursors"]
+	path = plugins/vim-multiple-cursors
+	url = git@github.com:terryma/vim-multiple-cursors.git
+[submodule "plugins/gundo.vim"]
+	path = plugins/gundo.vim
+	url = git@github.com:sjl/gundo.vim.git
+[submodule "langs/php.vim"]
+	path = langs/php.vim
+	url = git@github.com:StanAngeloff/php.vim.git
+[submodule "plugins/tagbar-phpctags.vim"]
+	path = plugins/tagbar-phpctags.vim
+	url = git@github.com:vim-php/tagbar-phpctags.vim.git
+[submodule "plugins/tagbar"]
+	path = plugins/tagbar
+	url = git@github.com:majutsushi/tagbar.git
+[submodule "plugins/gist-vim"]
+	path = plugins/gist-vim
+	url = git@github.com:mattn/gist-vim.git
+[submodule "plugins/vim-indent-object"]
+	path = plugins/vim-indent-object
+	url = git@github.com:michaeljsmith/vim-indent-object.git
+[submodule "plugins/Kwbd.vim"]
+	path = plugins/Kwbd.vim
+	url = git@github.com:rgarver/Kwbd.vim.git
+[submodule "plugins/matchit"]
+	path = plugins/matchit
+	url = git@github.com:tmhedberg/matchit.git
+[submodule "plugins/NrrwRgn"]
+	path = plugins/NrrwRgn
+	url = git@github.com:chrisbra/NrrwRgn.git
+[submodule "plugins/vim-repeat"]
+	path = plugins/vim-repeat
+	url = git@github.com:tpope/vim-repeat.git
+[submodule "plugins/supertab"]
+	path = plugins/supertab
+	url = git@github.com:ervandew/supertab.git
+[submodule "plugins/syntastic"]
+	path = plugins/syntastic
+	url = git@github.com:scrooloose/syntastic.git
+[submodule "plugins/tlib_vim"]
+	path = plugins/tlib_vim
+	url = git@github.com:tomtom/tlib_vim.git
+[submodule "plugins/vim-addon-mw-utils"]
+	path = plugins/vim-addon-mw-utils
+	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
+[submodule "plugins/vim-snipmate"]
+	path = plugins/vim-snipmate
+	url = git@github.com:garbas/vim-snipmate.git
+[submodule "plugins/vim-snippets"]
+	path = plugins/vim-snippets
+	url = git@github.com:honza/vim-snippets.git
+[submodule "plugins/vim-visual-star-search"]
+	path = plugins/vim-visual-star-search
+	url = git@github.com:bronson/vim-visual-star-search.git
+[submodule "plugins/vim-vroom"]
+	path = plugins/vim-vroom
+	url = git@github.com:skalnik/vim-vroom.git
+[submodule "plugins/ZoomWin"]
+	path = plugins/ZoomWin
+	url = git@github.com:vim-scripts/ZoomWin.git
+[submodule "plugins/webapi-vim"]
+	path = plugins/webapi-vim
+	url = git@github.com:mattn/webapi-vim.git
+[submodule "langs/vim-javascript"]
+	path = langs/vim-javascript
+	url = git@github.com:pangloss/vim-javascript.git
+[submodule "langs/csv.vim"]
+	path = langs/csv.vim
+	url = git@github.com:chrisbra/csv.vim.git
+[submodule "langs/vim-arduino-syntax"]
+	path = langs/vim-arduino-syntax
+	url = git@github.com:sudar/vim-arduino-syntax.git
+[submodule "langs/vim-go"]
+	path = langs/vim-go
+	url = git@github.com:fatih/vim-go.git
+[submodule "langs/vim-yaml"]
+	path = langs/vim-yaml
+	url = git@github.com:stephpy/vim-yaml.git
+[submodule "langs/vim-ansible-yaml"]
+	path = langs/vim-ansible-yaml
+	url = git@github.com:chase/vim-ansible-yaml.git
+[submodule "langs/vim-json"]
+	path = langs/vim-json
+	url = git@github.com:elzr/vim-json.git
+[submodule "langs/vim-less"]
+	path = langs/vim-less
+	url = git@github.com:groenewege/vim-less.git
+[submodule "langs/vim-node"]
+	path = langs/vim-node
+	url = git@github.com:moll/vim-node.git
+[submodule "langs/vim-puppet"]
+	path = langs/vim-puppet
+	url = git@github.com:rodjek/vim-puppet.git
+[submodule "langs/vim-ruby"]
+	path = langs/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
+[submodule "langs/scss-syntax.vim"]
+	path = langs/scss-syntax.vim
+	url = git@github.com:cakebaker/scss-syntax.vim.git
+[submodule "langs/vim-css3-syntax"]
+	path = langs/vim-css3-syntax
+	url = git@github.com:hail2u/vim-css3-syntax.git
+[submodule "plugins/vim-css-color"]
+	path = plugins/vim-css-color
+	url = git@github.com:skammer/vim-css-color.git
