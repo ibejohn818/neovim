@@ -1,5 +1,5 @@
-source ~/.vim/autoload/pathogen.vim 
-execute pathogen#infect('~/.vim/bundle/{}')
+source ~/.vim/plugins/vim-pathogen/autoload/pathogen.vim 
+execute pathogen#infect('~/.vim/plugins/{}', '~/.vim/langs/{}')
 
 :nnoremap Ω :buffers<CR>:buffer<Space>
 
@@ -297,7 +297,7 @@ autocmd! AuNERDTreeCmd FocusGained
 "
 " Syntastic
   let g:syntastic_enable_signs=1
-  let g:syntastic_quiet_warnings=0
+  let g:syntastic_quiet_messages=0
   let g:syntastic_auto_loc_list=2
 
 "CTRLP Options
