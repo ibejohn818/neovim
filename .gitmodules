@@ -154,3 +154,6 @@
 [submodule "plugins/vim-css-color"]
 	path = plugins/vim-css-color
 	url = git@github.com:skammer/vim-css-color.git
+[submodule "plugins/sparkup"]
+	path = plugins/sparkup
+	url = git@github.com:rstacruz/sparkup.git
