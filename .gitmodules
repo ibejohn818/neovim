@@ -160,3 +160,6 @@
 [submodule "plugins/html5.vim"]
 	path = plugins/html5.vim
 	url = git@github.com:othree/html5.vim.git
+[submodule "plugins/csapprox"]
+	path = plugins/csapprox
+	url = git@github.com:godlygeek/csapprox.git
