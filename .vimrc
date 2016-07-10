@@ -3,6 +3,7 @@ execute pathogen#infect('~/.vim/plugins/{}', '~/.vim/langs/{}')
 
 :nnoremap Ω :buffers<CR>:buffer<Space>
 
+set nowrap
 
 let NERDTreeHijackNetrw = 0
 
