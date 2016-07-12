@@ -163,3 +163,6 @@
 [submodule "plugins/csapprox"]
 	path = plugins/csapprox
 	url = git@github.com:godlygeek/csapprox.git
+[submodule "plugins/gruvbox"]
+	path = plugins/gruvbox
+	url = git@github.com:morhetz/gruvbox.git

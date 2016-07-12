@@ -18,6 +18,8 @@ filetype plugin indent on
 
 " Color Scheme
 colorscheme molokai
+"set background=dark
+"colorscheme gruvbox
 
 set number " Show Line Numbers
 
