@@ -311,3 +311,14 @@ autocmd! AuNERDTreeCmd FocusGained
 let g:ctrlp_working_path_mode=0
 let g:tagbar_autofocus=1
 
+" Call Function When Saving *.less files
+autocmd FileWritePost,BufWritePost *.less :call HandleLessToCSS()
+" Function to handle less compile
+function! HandleLessToCSS()
+	let cwd = expand('<afile>:p:h')
+	let name = expand('<afile>:t:r')
+	if(executable('less'))
+		cal system('compile-less '.cwd.'/'.name.'.less &')
+	endif
+endfunction
+
