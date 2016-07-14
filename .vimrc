@@ -17,9 +17,9 @@ syntax on
 filetype plugin indent on
 
 " Color Scheme
-colorscheme molokai
-"set background=dark
-"colorscheme gruvbox
+"colorscheme molokai
+set background=dark
+colorscheme gruvbox
 
 set number " Show Line Numbers
 
