@@ -166,3 +166,6 @@
 [submodule "plugins/gruvbox"]
 	path = plugins/gruvbox
 	url = git@github.com:morhetz/gruvbox.git
+[submodule "vim-colortuner"]
+	path = vim-colortuner
+	url = git@github.com:zefei/vim-colortuner
