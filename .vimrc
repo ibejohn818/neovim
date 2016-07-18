@@ -15,6 +15,9 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " Highlight Syntax
 syntax on
 filetype plugin indent on
+" enable all Python syntax highlighting features
+let python_highlight_all = 1
+
 
 " Color Scheme
 "colorscheme molokai
