@@ -236,12 +236,11 @@ function! s:Bclose(bang, buffer)
   execute wcurrent.'wincmd w'
 endfunction
 command! -bang -complete=buffer -nargs=? Bclose call s:Bclose('<bang>', '<args>')
+" Map :Bclose function
 nnoremap <silent> <Leader>bd :Bclose<CR>
 
 
-
-
-"" NERD Tree Upon VIM OPEN FUnctions
+"" NERD Tree Upon VIM OPEN Functions
   augroup AuNERDTreeCmd
   autocmd AuNERDTreeCmd VimEnter * call s:CdIfDirectory(expand("<amatch>"))
   autocmd AuNERDTreeCmd FocusGained * call s:UpdateNERDTree()
