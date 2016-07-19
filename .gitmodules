@@ -19,9 +19,6 @@
 [submodule "plugins/vim-eunuch"]
 	path = plugins/vim-eunuch
 	url = git@github.com:tpope/vim-eunuch.git
-[submodule "plugins/ctrlp.vim"]
-	path = plugins/ctrlp.vim
-	url = git@github.com:kien/ctrlp.vim.git
 [submodule "plugins/vim-easymotion"]
 	path = plugins/vim-easymotion
 	url = git@github.com:easymotion/vim-easymotion.git
@@ -172,3 +169,9 @@
 [submodule "plugins/python-mode"]
 	path = plugins/python-mode
 	url = git@github.com:klen/python-mode.git
+[submodule "plugins/--force"]
+	path = plugins/--force
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "plugins/ctrlp"]
+	path = plugins/ctrlp
+	url = https://github.com/ctrlpvim/ctrlp.vim
