@@ -166,12 +166,6 @@
 [submodule "vim-colortuner"]
 	path = vim-colortuner
 	url = git@github.com:zefei/vim-colortuner
-[submodule "plugins/python-mode"]
-	path = plugins/python-mode
-	url = git@github.com:klen/python-mode.git
-[submodule "plugins/--force"]
-	path = plugins/--force
-	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "plugins/ctrlp"]
 	path = plugins/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim

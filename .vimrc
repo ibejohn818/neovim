@@ -18,7 +18,7 @@ filetype plugin indent on
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
-let g:python_host_prog = '/opt/local/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python'
+"let g:python_host_prog = '/opt/local/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python'
 
 " Color Scheme
 "colorscheme molokai
