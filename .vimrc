@@ -21,9 +21,9 @@ let python_highlight_all = 1
 "let g:python_host_prog = '/opt/local/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python'
 
 " Color Scheme
-"colorscheme molokai
-set background=dark
-colorscheme gruvbox
+colorscheme molokai
+"set background=dark
+"colorscheme gruvbox
 
 set number " Show Line Numbers
 
@@ -271,7 +271,7 @@ nnoremap <silent> <Leader>bd :Bclose<CR>
     endif
 
     if explicitDirectory
-      wincmd p
+      wincmd l
     endif
   endfunction
 
@@ -313,6 +313,7 @@ autocmd! AuNERDTreeCmd FocusGained
 "CTRLP Options
 let g:ctrlp_working_path_mode=0
 let g:tagbar_autofocus=1
+
 
 " Call Function When Saving *.less files
 autocmd FileWritePost,BufWritePost *.less :call HandleLessToCSS()
