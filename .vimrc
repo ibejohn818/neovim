@@ -15,15 +15,16 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " Highlight Syntax
 syntax on
 filetype plugin indent on
+syntax sync minlines=256
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
 "let g:python_host_prog = '/opt/local/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python'
 
 " Color Scheme
-colorscheme molokai
-"set background=dark
-"colorscheme gruvbox
+"colorscheme molokai
+set background=dark
+colorscheme gruvbox
 
 set number " Show Line Numbers
 
