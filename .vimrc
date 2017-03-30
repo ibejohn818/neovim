@@ -9,7 +9,6 @@ set nowrap
 
 let NERDTreeHijackNetrw = 0
 
-
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 " Highlight Syntax
@@ -167,6 +166,7 @@ map <leader>n :NERDTreeToggle<CR> :NERDTreeMirror<CR>
 " insert line shortcut
 nmap <CR> o<Esc>k
 
+
 " Toggle Tagbar Split
 map <leader>rt :TagbarToggle<CR>
 
@@ -313,6 +313,11 @@ autocmd! AuNERDTreeCmd FocusGained
 
 "CTRLP Options
 let g:ctrlp_working_path_mode=0
+let g:ctrlp_use_caching = 1
+let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
+let g:ctrlp_max_files = 0
+
+" Tagbar settings
 let g:tagbar_autofocus=1
 
 
