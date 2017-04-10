@@ -175,3 +175,6 @@
 [submodule "plugins/plugins/vim-flake8"]
 	path = plugins/plugins/vim-flake8
 	url = git@github.com:nvie/vim-flake8.git
+[submodule "langs/typescript-vim"]
+	path = langs/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
