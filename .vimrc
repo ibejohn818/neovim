@@ -59,6 +59,8 @@ set softtabstop=4 " edit as if the tabs are 4 characters wide
 set shiftwidth=4 " number of spaces to use for indent and unindent
 set shiftround " round indent to a multiple of 'shiftwidth'
 set completeopt+=longest
+" Tab control for yaml files
+autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 
 
 " code folding settings
@@ -83,7 +85,7 @@ nmap <leader>ll :set list!<cr>
 " set wildmode=list:longest,list:full
 
 " Disable output and VCS files
-set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
+set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem,*.pyc
 
 " Disable archive files
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
@@ -108,8 +110,6 @@ set backupdir^=~/.vim/_backup//    " where to put backup files.
 set directory^=~/.vim/_temp//      " where to put swap files.
 
 
-" Tab control for yaml files
-autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 
 
 filetype plugin indent on " Turn on filetype plugins (:help filetype-plugin)
@@ -305,17 +305,18 @@ autocmd! AuNERDTreeCmd FocusGained
 "#############################
 "
 " Syntastic
-  let g:syntastic_enable_signs=1
-  let g:syntastic_quiet_messages={
-			  \ "level":"errors"
-			  \}
-  let g:syntastic_auto_loc_list=2
+  "let g:syntastic_enable_signs=1
+  "let g:syntastic_quiet_messages={
+			  "\ "level":"errors"
+			  "\}
+  "let g:syntastic_auto_loc_list=2
 
 "CTRLP Options
 let g:ctrlp_working_path_mode=0
 let g:ctrlp_use_caching = 1
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 let g:ctrlp_max_files = 0
+let g:ctrlp_follow_symlinks = 1
 
 " Tagbar settings
 let g:tagbar_autofocus=1
@@ -332,3 +333,20 @@ function! HandleLessToCSS()
 	endif
 endfunction
 
+" 
+function! AutoPEP8()
+	let cwd = expand('<afile>:p:h')
+	let name = expand('<afile>:t:r')
+	if(executable('autopep8'))
+		cal system('autopep8 --in-place --aggressive --aggressive '.cwd.'/'.name.'.py &')
+		:e cwd.'/'.name.'.py'
+	endif
+endfunction
+
+:nmap <F8> call AutoPEP8()
+
+" vim-pyflakes
+let g:flake8_show_in_file=1
+let g:flake8_show_in_gutter=1
+
+autocmd BufWritePost *.py call Flake8()
