@@ -23,7 +23,8 @@ let python_highlight_all = 1
 " Color Scheme
 "colorscheme molokai
 set background=dark
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme Tomorrow-Night
 
 set number " Show Line Numbers
 
