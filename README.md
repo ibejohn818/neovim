@@ -58,6 +58,6 @@ Plugins
 - Visual Star Search
 - VRoom
 - WEBAPI ( for Gist VIM )
-
+- Dockerfile syntax
 
 
