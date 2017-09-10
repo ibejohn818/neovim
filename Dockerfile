@@ -12,10 +12,7 @@ RUN mkdir /nvim-home
 RUN mkdir /nvim-home/.local -m 0777
 ENV HOME=/nvim-home
 
-RUN echo "git clone https://git@github.com/ibejohn818/neovim.git /nvim-home/vim" > /tmp/clone-script \
-        && chmod +x /tmp/clone-script
-
-RUN /tmp/clone-script
+RUN git clone https://git@github.com/ibejohn818/neovim.git /nvim-home/vim # Last update 2017/09/10
 
 RUN /bin/bash -c "cd /nvim-home/vim && ./local-setup.sh"
 
