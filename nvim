@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker pull ibejohn818/neovim
+docker run -it --rm -u $(id -u):$(id -g) -v $(pwd):$(pwd) -w $(pwd) ibejohn818/neovim $1
