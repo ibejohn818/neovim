@@ -66,7 +66,6 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 " Tab control for docker-comppose
 autocmd FileType docker-compose setlocal expandtab
 
-
 " code folding settings
 set foldmethod=syntax " fold based on indent
 set foldnestmax=10 " deepest fold is 10 levels
