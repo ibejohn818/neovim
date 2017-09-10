@@ -31,8 +31,7 @@ set number " Show Line Numbers
 set ruler  " Show line and column number
 
 "Search Options
-:set hidden
-
+set hidden
 set hlsearch    " highlight matches
 set incsearch   " incremental searching
 set ignorecase  " searches are case insensitive...
