@@ -60,8 +60,11 @@ set softtabstop=4 " edit as if the tabs are 4 characters wide
 set shiftwidth=4 " number of spaces to use for indent and unindent
 set shiftround " round indent to a multiple of 'shiftwidth'
 set completeopt+=longest
+
 " Tab control for yaml files
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
+" Tab control for docker-comppose
+autocmd FileType docker-compose setlocal expandtab
 
 
 " code folding settings

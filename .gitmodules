@@ -181,3 +181,9 @@
 [submodule "plugins/vim-flake8"]
 	path = plugins/vim-flake8
 	url = https://git@github.com/nvie/vim-flake8.git
+[submodule "langs/jinja2-vim"]
+	path = langs/jinja2-vim
+	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
+[submodule "langs/dockerfile"]
+	path = langs/dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
