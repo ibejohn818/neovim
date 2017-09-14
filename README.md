@@ -22,4 +22,5 @@ Have a question? Feel free to reach me at my website https://johnchardy.com
 
 Thank you to all the people that have developed the plugins/lang-defs I use, your work is much appreciated  
 
--JH
+-JH  
+`:wqa`
