@@ -16,7 +16,7 @@ There is also a Docker container that bootstraps my setup and runs nvim. The `nv
 
 I like using my vim in Docker as it's portable ( as long as docker is installed ) and allows me to setup my env with all the tools/builder/etc I'm interested in using.  
 I'll usually create a separate branch for a more focused setup.  
-Write now the default config is more focused on python as that's what I find myself editing daily.  
+Right now the default config is more focused on python as that's what I find myself editing daily.  
 I hope this will serve as an example for somebody curious or enthusiastic about using vim as I've benefited much from the community and have stumbled accross things that I still use to this day.  
 Have a question? Feel free to reach me at my website https://johnchardy.com  
 
