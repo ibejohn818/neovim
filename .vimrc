@@ -26,6 +26,9 @@ set background=dark
 "colorscheme gruvbox
 colorscheme Tomorrow-Night
 
+" eanble mouse
+set mouse=a
+
 set number " Show Line Numbers
 
 set ruler  " Show line and column number
@@ -335,20 +338,19 @@ function! HandleLessToCSS()
 	endif
 endfunction
 
-" 
 function! AutoPEP8()
 	let cwd = expand('<afile>:p:h')
 	let name = expand('<afile>:t:r')
-	if(executable('autopep8'))
-		cal system('autopep8 --in-place --aggressive --aggressive '.cwd.'/'.name.'.py &')
-		:e cwd.'/'.name.'.py'
-	endif
+    if(executable('autopep8'))
+        cal system('autopep8 --in-place --aggressive --aggressive '.cwd.'/'.name.'.py &')
+        :edit!
+    endif
 endfunction
 
-:nmap <F8> call AutoPEP8()
+"map <F8> :call AutoPEP8()<CR>
 
 " vim-pyflakes
 let g:flake8_show_in_file=1
 let g:flake8_show_in_gutter=1
 
-autocmd BufWritePost *.py call Flake8()
+"autocmd BufWritePost *.py call Flake8()
