@@ -354,3 +354,5 @@ let g:flake8_show_in_file=1
 let g:flake8_show_in_gutter=1
 
 "autocmd BufWritePost *.py call Flake8()
+" emmet trigger
+let g:user_emmet_leader_key='<C-E>'

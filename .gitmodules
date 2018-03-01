@@ -148,9 +148,6 @@
 [submodule "langs/vim-css3-syntax"]
 	path = langs/vim-css3-syntax
 	url = https://git@github.com/hail2u/vim-css3-syntax.git
-[submodule "plugins/sparkup"]
-	path = plugins/sparkup
-	url = https://git@github.com/rstacruz/sparkup.git
 [submodule "plugins/vim-colorschemes"]
 	path = plugins/vim-colorschemes
 	url = https://git@github.com/flazz/vim-colorschemes.git
@@ -193,3 +190,6 @@
 [submodule "langs/vue.js"]
 	path = langs/vue.js
 	url = https://github.com/posva/vim-vue.git
+[submodule "plugins/emmet"]
+	path = plugins/emmet
+	url = https://github.com/mattn/emmet-vim.git
