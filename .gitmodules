@@ -91,9 +91,6 @@
 [submodule "plugins/vim-addon-mw-utils"]
 	path = plugins/vim-addon-mw-utils
 	url = https://git@github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "plugins/vim-snipmate"]
-	path = plugins/vim-snipmate
-	url = https://git@github.com/garbas/vim-snipmate.git
 [submodule "plugins/vim-snippets"]
 	path = plugins/vim-snippets
 	url = https://git@github.com/honza/vim-snippets.git
@@ -193,3 +190,6 @@
 [submodule "plugins/emmet"]
 	path = plugins/emmet
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "plugins/ultisnips"]
+	path = plugins/ultisnips
+	url = https://github.com/SirVer/ultisnips.git

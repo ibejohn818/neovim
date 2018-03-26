@@ -1,0 +1,70 @@
+extends html, javascript, css
+
+snippet comp "template"
+<template>
+  <div>
+
+  </div>
+</template>
+
+<script>
+export default {
+  name: '$1',
+  data () {
+    return {
+
+    }
+  },
+  props: {
+
+  },
+  computed: {
+
+  },
+  watch: {
+
+  },
+  mounted () {
+
+  },
+  methods: {
+
+  }
+}
+</script>
+
+<style lang='sass' scoped>
+
+</style>
+endsnippet
+
+snippet ajax "ajax"
+this.\$ajax.${1:get}('${2: }').then(
+  (res) => {
+
+  },
+  (res) => {
+    this.\$store.dispatch('alert', [
+      'error',
+      'Error',
+      '${3:Error occured on the server}',
+      {
+        sound: true,
+        positionClass: 'toast-top-center'
+      }
+     ]
+    )
+  }
+)
+endsnippet
+
+snippet aler "aler"
+this.\$store.dispatch('alert', [
+  '${1:error}',
+  '${2:Error}',
+  '${3:Message}',
+  {
+    ${4:}
+  }
+])
+endsnippet

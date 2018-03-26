@@ -1,4 +1,4 @@
-source ~/.vim/plugins/vim-pathogen/autoload/pathogen.vim 
+source ~/.vim/plugins/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect('~/.vim/plugins/{}', '~/.vim/langs/{}')
 
 :nnoremap Ω :buffers<CR>:buffer<Space>
@@ -44,7 +44,7 @@ set smartcase   " ... unless they contain at least one capital letter
 :nnoremap <C-K> <C-W><C-K>
 :nnoremap <C-L> <C-W><C-L>
 :nnoremap <C-H> <C-W><C-H>
-		
+
 set hlsearch!
 
 nnoremap <F3> :set hlsearch!<CR>
@@ -65,6 +65,11 @@ set completeopt+=longest
 
 " Tab control for yaml files
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType js setlocal shiftwidth=2 tabstop=2
+autocmd FileType vuejs setlocal shiftwidth=2 tabstop=2
+autocmd FileType vue setlocal shiftwidth=2 tabstop=2
+autocmd FileType ts setlocal shiftwidth=2 tabstop=2
 " Tab control for docker-comppose
 autocmd FileType docker-compose setlocal expandtab
 
@@ -106,6 +111,10 @@ set wildignore+=*/tmp/cache/assets/*/sprockets/*,*/tmp/cache/assets/*/sass/*
 
 " Disable temp and backup files
 set wildignore+=*.swp,*~,._*
+
+" Ignore node modules
+set wildignore+=*/node_modules/*
+
 
 ""
 "" Backup and swap files
@@ -322,6 +331,10 @@ let g:ctrlp_use_caching = 1
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 let g:ctrlp_max_files = 0
 let g:ctrlp_follow_symlinks = 1
+let g:ctrlp_custom_ignore = {
+\ 'dir':  '\v[\/]\.(git|hg|svn)$',
+\ 'file': '\v\.(exe|so|dll)$',
+\ }
 
 " Tagbar settings
 let g:tagbar_autofocus=1
@@ -356,3 +369,8 @@ let g:flake8_show_in_gutter=1
 "autocmd BufWritePost *.py call Flake8()
 " emmet trigger
 let g:user_emmet_leader_key='<C-E>'
+"let g:user_emmet_expandabbr_key='<C-e>'
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
