@@ -145,9 +145,6 @@
 [submodule "langs/vim-css3-syntax"]
 	path = langs/vim-css3-syntax
 	url = https://git@github.com/hail2u/vim-css3-syntax.git
-[submodule "plugins/vim-colorschemes"]
-	path = plugins/vim-colorschemes
-	url = https://git@github.com/flazz/vim-colorschemes.git
 [submodule "plugins/html5.vim"]
 	path = plugins/html5.vim
 	url = https://git@github.com/othree/html5.vim.git
@@ -193,3 +190,9 @@
 [submodule "plugins/ultisnips"]
 	path = plugins/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+[submodule "plugins/onedark-theme"]
+	path = plugins/onedark-theme
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "plugins/aftercolors"]
+	path = plugins/aftercolors
+	url = https://github.com/vim-scripts/AfterColors.vim.git

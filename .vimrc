@@ -24,8 +24,9 @@ let python_highlight_all = 1
 "colorscheme molokai
 set background=dark
 "colorscheme gruvbox
-colorscheme Tomorrow-Night
-
+"colorscheme Tomorrow-Night
+colorscheme onedark
+hi Normal ctermbg=none
 " eanble mouse
 set mouse=a
 
