@@ -25,7 +25,10 @@ let python_highlight_all = 1
 set background=dark
 "colorscheme gruvbox
 "colorscheme Tomorrow-Night
-colorscheme onedark
+"colorscheme onedark
+"colorscheme onehalfdark
+colorscheme tender
+"
 hi Normal ctermbg=none
 " eanble mouse
 set mouse=a

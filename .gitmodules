@@ -196,3 +196,6 @@
 [submodule "plugins/aftercolors"]
 	path = plugins/aftercolors
 	url = https://github.com/vim-scripts/AfterColors.vim.git
+[submodule "plugins/color-tender"]
+	path = plugins/color-tender
+	url = https://github.com/jacoborus/tender.vim.git
