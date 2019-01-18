@@ -27,9 +27,20 @@ set background=dark
 "colorscheme Tomorrow-Night
 "colorscheme onedark
 "colorscheme onehalfdark
-colorscheme tender
-"
+colorscheme tender_jch
+"i
+
+
+
 hi Normal ctermbg=none
+"cursor
+
+highlight Cursor guifg=white guibg=black
+highlight iCursor guifg=white guibg=steelblue
+set guicursor=n-v-c:block-Cursor
+set guicursor+=i:ver100-iCursor
+set guicursor+=n-v-c:blinkon0
+set guicursor+=i:blinkwait10
 " eanble mouse
 set mouse=a
 
@@ -378,3 +389,5 @@ let g:user_emmet_leader_key='<C-E>'
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+noremap <F12> <Esc>:syntax sync fromstart<CR>
+inoremap <F12> <C-o>:syntax sync fromstart<CR>

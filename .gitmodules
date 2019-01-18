@@ -106,45 +106,6 @@
 [submodule "plugins/webapi-vim"]
 	path = plugins/webapi-vim
 	url = https://git@github.com/mattn/webapi-vim.git
-[submodule "langs/vim-javascript"]
-	path = langs/vim-javascript
-	url = https://git@github.com/pangloss/vim-javascript.git
-[submodule "langs/csv.vim"]
-	path = langs/csv.vim
-	url = https://git@github.com/chrisbra/csv.vim.git
-[submodule "langs/vim-arduino-syntax"]
-	path = langs/vim-arduino-syntax
-	url = https://git@github.com/sudar/vim-arduino-syntax.git
-[submodule "langs/vim-go"]
-	path = langs/vim-go
-	url = https://git@github.com/fatih/vim-go.git
-[submodule "langs/vim-yaml"]
-	path = langs/vim-yaml
-	url = https://git@github.com/stephpy/vim-yaml.git
-[submodule "langs/vim-ansible-yaml"]
-	path = langs/vim-ansible-yaml
-	url = https://git@github.com/chase/vim-ansible-yaml.git
-[submodule "langs/vim-json"]
-	path = langs/vim-json
-	url = https://git@github.com/elzr/vim-json.git
-[submodule "langs/vim-less"]
-	path = langs/vim-less
-	url = https://git@github.com/groenewege/vim-less.git
-[submodule "langs/vim-node"]
-	path = langs/vim-node
-	url = https://git@github.com/moll/vim-node.git
-[submodule "langs/vim-puppet"]
-	path = langs/vim-puppet
-	url = https://git@github.com/rodjek/vim-puppet.git
-[submodule "langs/vim-ruby"]
-	path = langs/vim-ruby
-	url = https://git@github.com/vim-ruby/vim-ruby.git
-[submodule "langs/scss-syntax.vim"]
-	path = langs/scss-syntax.vim
-	url = https://git@github.com/cakebaker/scss-syntax.vim.git
-[submodule "langs/vim-css3-syntax"]
-	path = langs/vim-css3-syntax
-	url = https://git@github.com/hail2u/vim-css3-syntax.git
 [submodule "plugins/html5.vim"]
 	path = plugins/html5.vim
 	url = https://git@github.com/othree/html5.vim.git
@@ -166,36 +127,30 @@
 [submodule "plugins/plugins/vim-flake8"]
 	path = plugins/plugins/vim-flake8
 	url = https://git@github.com/nvie/vim-flake8.git
-[submodule "langs/typescript-vim"]
-	path = langs/typescript-vim
-	url = https://git@github.com/leafgarland/typescript-vim.git
 [submodule "plugins/vim-flake8"]
 	path = plugins/vim-flake8
 	url = https://git@github.com/nvie/vim-flake8.git
 [submodule "langs/jinja2-vim"]
 	path = langs/jinja2-vim
 	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
-[submodule "langs/dockerfile"]
-	path = langs/dockerfile
-	url = https://github.com/ekalinin/Dockerfile.vim.git
 [submodule "plugins/flakeclip"]
 	path = plugins/flakeclip
 	url = https://github.com/kana/vim-fakeclip.git
-[submodule "langs/vue.js"]
-	path = langs/vue.js
-	url = https://github.com/posva/vim-vue.git
 [submodule "plugins/emmet"]
 	path = plugins/emmet
 	url = https://github.com/mattn/emmet-vim.git
 [submodule "plugins/ultisnips"]
 	path = plugins/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
-[submodule "plugins/onedark-theme"]
-	path = plugins/onedark-theme
-	url = https://github.com/joshdick/onedark.vim.git
 [submodule "plugins/aftercolors"]
 	path = plugins/aftercolors
 	url = https://github.com/vim-scripts/AfterColors.vim.git
 [submodule "plugins/color-tender"]
 	path = plugins/color-tender
 	url = https://github.com/jacoborus/tender.vim.git
+[submodule "langs/polyglot"]
+	path = langs/polyglot
+	url = git@github.com:sheerun/vim-polyglot.git
+[submodule "langs/dockerfile.vim"]
+	path = langs/dockerfile.vim
+	url = https://github.com/ekalinin/Dockerfile.vim.git
