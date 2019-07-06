@@ -1,6 +1,8 @@
 source ~/.vim/plugins/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect('~/.vim/plugins/{}', '~/.vim/langs/{}')
 
+let g:python3_host_prog = '/opt/local/bin/python3.7'
+
 :nnoremap Ω :buffers<CR>:buffer<Space>
 
 set t_Co=256
@@ -8,6 +10,7 @@ set t_Co=256
 set nowrap
 
 let NERDTreeHijackNetrw = 0
+let NERDTreeIgnore = ['\.pyc$', '__pycache__$', '.*egg-info$', 'venv/*', 'env/*']
 
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
@@ -27,16 +30,25 @@ set background=dark
 "colorscheme Tomorrow-Night
 "colorscheme onedark
 "colorscheme onehalfdark
-colorscheme tender_jch
+"colorscheme tender_jch
+colorscheme onedark
 "i
 
-
-
 hi Normal ctermbg=none
+
+" split navigation
+" nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 "cursor
 
-highlight Cursor guifg=white guibg=black
-highlight iCursor guifg=white guibg=steelblue
+"highlight Cursor guifg=white guibg=black
+"highlight iCursor guifg=white guibg=steelblue
+
+hi Visual term=reverse cterm=reverse guibg=Grey
+
 set guicursor=n-v-c:block-Cursor
 set guicursor+=i:ver100-iCursor
 set guicursor+=n-v-c:blinkon0
@@ -347,7 +359,7 @@ let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 let g:ctrlp_max_files = 0
 let g:ctrlp_follow_symlinks = 1
 let g:ctrlp_custom_ignore = {
-\ 'dir':  '\v[\/]\.(git|hg|svn)$',
+\ 'dir':  '\v[\/]\.(git|hg|svn|env)$',
 \ 'file': '\v\.(exe|so|dll)$',
 \ }
 
@@ -385,9 +397,11 @@ let g:flake8_show_in_gutter=1
 " emmet trigger
 let g:user_emmet_leader_key='<C-E>'
 "let g:user_emmet_expandabbr_key='<C-e>'
-
+let g:UltiSnipsSnippetsDir          = $HOME.'/.vim/UltiSnips/'
+let g:UltiSnipsSnippetDirectories = ['UltiSnips']
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
 noremap <F12> <Esc>:syntax sync fromstart<CR>
 inoremap <F12> <C-o>:syntax sync fromstart<CR>

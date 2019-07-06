@@ -154,3 +154,6 @@
 [submodule "langs/dockerfile.vim"]
 	path = langs/dockerfile.vim
 	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "langs/onedark-vim"]
+	path = langs/onedark-vim
+	url = https://github.com/joshdick/onedark.vim.git
